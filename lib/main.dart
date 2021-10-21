@@ -7,11 +7,7 @@ void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: FirstPage(),
-  ));Banner(
-          message: "ALPHA",
-          location: BannerLocation.topEnd,
-          color: Colors.red,  
-          ),
+  ));
 }
 
 class FirstPage extends StatefulWidget {
@@ -49,7 +45,7 @@ class FState extends State<FirstPage> {
                 ),
               ),
             ),
-            
+
             ///first container
             Container(
               margin: EdgeInsets.all(1),
