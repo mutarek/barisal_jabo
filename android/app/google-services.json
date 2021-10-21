@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "903441055244",
+    "project_id": "flutterbeg",
+    "storage_bucket": "flutterbeg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903441055244:android:0e1559592ba9b3cdd27829",
+        "android_client_info": {
+          "package_name": "com.dhakacity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903441055244-mmslqflbm7jhnvevem35j2sv5idq9fpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArQo-YYxLItBPXE7ALVo0rep_tQYgDArU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903441055244-mmslqflbm7jhnvevem35j2sv5idq9fpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
