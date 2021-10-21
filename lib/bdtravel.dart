@@ -12,12 +12,6 @@ class bdState extends State<bdtravel> {
       appBar: AppBar(
         title: Text('BD Travel Page'),
       ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () {},
-          child: Text('Add Data'),
-        ),
-      ),
     );
   }
 }
