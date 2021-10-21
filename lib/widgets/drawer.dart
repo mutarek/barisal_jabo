@@ -47,7 +47,7 @@ Widget drawer(BuildContext context) {
             style: TextStyle(fontSize: 15),
           ),
           onTap: () {
-            addData();
+            //addData();
           },
         ),
       ),
