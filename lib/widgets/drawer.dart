@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -46,7 +47,7 @@ Widget drawer(BuildContext context) {
             style: TextStyle(fontSize: 15),
           ),
           onTap: () {
-            Navigator.of(context).push(MaterialPageRoute(builder: (context) => bdtravel()));
+            addData();
           },
         ),
       ),
@@ -89,4 +90,10 @@ Widget drawer(BuildContext context) {
       ),
     ],
   );
+}
+
+void addData() {
+  FirebaseFirestore.instance.collection('InputDetails').add({
+    'text': 'THIS IS TEST DATA'
+  });
 }
