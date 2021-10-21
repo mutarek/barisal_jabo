@@ -14,7 +14,7 @@ class bdState extends State<bdtravel> {
       ),
       body: Center(
         child: ElevatedButton(
-          onLongPress: () {},
+          onPressed: () {},
           child: Text('Add Data'),
         ),
       ),
