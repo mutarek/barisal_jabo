@@ -91,9 +91,3 @@ Widget drawer(BuildContext context) {
     ],
   );
 }
-
-void addData() {
-  FirebaseFirestore.instance.collection('InputDetails').add({
-    'text': 'THIS IS TEST DATA'
-  });
-}
